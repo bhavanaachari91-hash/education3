@@ -1,0 +1,107 @@
+.admission {
+    background: linear-gradient(rgba(26, 42, 108, 0.05), rgba(26, 42, 108, 0.05));
+}
+
+.admission-container {
+    display: flex;
+    gap: 60px;
+    align-items: center;
+}
+
+.admission-info {
+    flex: 1;
+}
+
+.admission-info h2 {
+    font-size: 3rem;
+    color: var(--primary-color);
+    margin-bottom: 20px;
+}
+
+.admission-info p {
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+    color: var(--text-secondary);
+}
+
+.contact-details {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.detail-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-weight: 500;
+}
+
+.admission-form-wrapper {
+    flex: 1.2;
+    padding: 40px;
+    border-radius: var(--border-radius);
+}
+
+.admission-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.form-row {
+    display: flex;
+    gap: 20px;
+}
+
+.form-row .form-group {
+    flex: 1;
+}
+
+label {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--primary-color);
+}
+
+input,
+select,
+textarea {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-family: inherit;
+    font-size: 1rem;
+    transition: var(--transition);
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    outline: none;
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 4px rgba(26, 42, 108, 0.1);
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.status-msg {
+    margin-top: 15px;
+    text-align: center;
+    font-weight: 600;
+    color: var(--primary-color);
+}
+
+@media (max-width: 992px) {
+    .admission-container {
+        flex-direction: column;
+    }
+}
