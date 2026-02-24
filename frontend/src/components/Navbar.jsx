@@ -1,14 +1,12 @@
 import React from 'react';
 import './Navbar.css';
+import Logo from './Logo';
 
 const Navbar = () => {
   return (
     <nav className="navbar glass">
       <div className="container nav-content">
-        <div className="logo">
-          <span className="logo-icon">🎓</span>
-          <span className="logo-text">edu.com</span>
-        </div>
+        <Logo />
         <ul className="nav-links">
           <li><a href="#home">Home</a></li>
           <li><a href="#about">About</a></li>

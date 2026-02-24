@@ -1,5 +1,6 @@
 import React from 'react';
 import './Footer.css';
+import Logo from './Logo';
 
 const Footer = () => {
     return (
@@ -7,10 +8,7 @@ const Footer = () => {
             <div className="container">
                 <div className="footer-grid">
                     <div className="footer-about">
-                        <div className="logo white">
-                            <span className="logo-icon">🎓</span>
-                            <span className="logo-text" style={{ color: 'white' }}>edu.com</span>
-                        </div>
+                        <Logo light={true} />
                         <p>Empowering the next generation of engineers and leaders with global standards and local values.</p>
                     </div>
                     <div className="footer-links">

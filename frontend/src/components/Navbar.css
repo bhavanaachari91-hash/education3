@@ -14,25 +14,66 @@
     align-items: center;
 }
 
-.logo {
+/* Logo Styles */
+.logo-container {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 12px;
+    cursor: pointer;
+}
+
+.logo-svg {
+    color: var(--primary-color);
+    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.1));
+    transition: var(--transition);
+}
+
+.logo-container:hover .logo-svg {
+    transform: scale(1.05) rotate(-5deg);
+}
+
+.logo-text-wrapper {
+    display: flex;
+    flex-direction: column;
+    line-height: 1;
+}
+
+.logo-main {
     font-family: 'Outfit', sans-serif;
-    font-weight: 800;
     font-size: 1.5rem;
+    font-weight: 800;
+    letter-spacing: -0.5px;
+}
+
+.logo-primary {
     color: var(--primary-color);
 }
 
-.logo-icon {
-    font-size: 2rem;
+.logo-secondary {
+    color: var(--secondary-color);
 }
 
-.logo-text small {
-    display: block;
-    font-size: 0.8rem;
-    font-weight: 400;
-    color: var(--secondary-color);
+.logo-sub {
+    font-size: 0.6rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: var(--text-secondary);
+    margin-top: 2px;
+}
+
+/* Light Version (for dark backgrounds) */
+.logo-container.light .logo-svg {
+    color: white;
+    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.2));
+}
+
+.logo-container.light .logo-primary,
+.logo-container.light .logo-secondary {
+    color: white;
+}
+
+.logo-container.light .logo-sub {
+    color: rgba(255, 255, 255, 0.7);
 }
 
 .nav-links {
