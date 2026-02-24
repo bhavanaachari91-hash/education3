@@ -7,9 +7,8 @@ node_modules/
 coverage/
 
 # Production
-frontend/dist/
-backend/node_modules/
-frontend/node_modules/
+dist/
+build/
 
 # Environment
 .env
@@ -26,7 +25,6 @@ yarn-error.log*
 # Misc
 .DS_Store
 .vscode/
-dist/
-build/
+.vite/
 .agent/
 .gemini/
