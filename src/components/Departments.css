@@ -16,7 +16,7 @@
 .dept-card:hover {
     transform: translateY(-10px);
     background: var(--primary-color);
-    color: white;
+    color: #000000;
 }
 
 .dept-icon {
@@ -32,7 +32,7 @@
 .dept-card p {
     font-size: 0.95rem;
     margin-bottom: 25px;
-    opacity: 0.8;
+    opacity: 0.9;
 }
 
 .dept-link {
@@ -42,5 +42,5 @@
 }
 
 .dept-card:hover .dept-link {
-    color: var(--accent-color);
+    color: #000000;
 }
