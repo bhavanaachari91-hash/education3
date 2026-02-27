@@ -1,5 +1,5 @@
 .admission {
-    background: linear-gradient(rgba(26, 42, 108, 0.05), rgba(26, 42, 108, 0.05));
+    background: #050505;
 }
 
 .admission-container {
@@ -74,7 +74,9 @@ input,
 select,
 textarea {
     padding: 12px 15px;
-    border: 1px solid #ddd;
+    border: 1px solid #333;
+    background: #121212;
+    color: white;
     border-radius: 8px;
     font-family: inherit;
     font-size: 1rem;
