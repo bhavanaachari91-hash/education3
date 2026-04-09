@@ -1,19 +1,24 @@
 import React, { useState } from 'react';
 import './Courses.css';
+import businessMgmtImg from '../assets/images/business-mgmt.jpg';
+import intRelationsImg from '../assets/images/int-relations.png';
+import aiDataScienceImg from '../assets/images/ai-data-science.jpg';
+import executiveMbaImg from '../assets/images/executive-mba.jpg';
+import btechHonorsImg from '../assets/images/btech-honors.png';
 
 const Courses = () => {
     const [activeTab, setActiveTab] = useState('international');
 
     const courses = {
         international: [
-            { title: 'Global Business Mgmt', duration: '2 Years', location: 'UK / USA / Online' },
-            { title: 'International Relations', duration: '3 Years', location: 'Europe / Asia' },
-            { title: 'Advanced AI & Data Science', duration: '1.5 Years', location: 'Global Partnership' }
+            { title: 'Global Business Mgmt', duration: '2 Years', location: 'UK / USA / Online', image: businessMgmtImg },
+            { title: 'International Relations', duration: '3 Years', location: 'Europe / Asia', image: intRelationsImg },
+            { title: 'Advanced AI & Data Science', duration: '1.5 Years', location: 'Global Partnership', image: aiDataScienceImg }
         ],
         domestic: [
-            { title: 'B.Tech Honors', duration: '4 Years', location: 'Main Campus' },
-            { title: 'Master of Architecture', duration: '2 Years', location: 'Research Wing' },
-            { title: 'Executive MBA', duration: '1 Year', location: 'City Campus' }
+            { title: 'B.Tech Honors', duration: '4 Years', location: 'Main Campus', image: btechHonorsImg },
+            { title: 'Master of Architecture', duration: '2 Years', location: 'Research Wing', image: 'https://images.unsplash.com/photo-1517673132405-a56a62b18caf?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60' },
+            { title: 'Executive MBA', duration: '1 Year', location: 'City Campus', image: executiveMbaImg }
         ]
     };
 
@@ -45,7 +50,7 @@ const Courses = () => {
                     {courses[activeTab].map((course, index) => (
                         <div key={index} className="course-card animate-fade">
                             <div className="course-image">
-                                <img src={`https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60`} alt={course.title} />
+                                <img src={course.image} alt={course.title} />
                             </div>
                             <div className="course-info">
                                 <h3>{course.title}</h3>

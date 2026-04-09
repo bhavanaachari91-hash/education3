@@ -44,3 +44,83 @@
 .dept-card:hover .dept-link {
     color: #000000;
 }
+
+.computer-science {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../assets/images/cs-dept.jpg') no-repeat center center/cover !important;
+    color: white !important;
+}
+
+.computer-science:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../assets/images/cs-dept.jpg') no-repeat center center/cover !important;
+    transform: translateY(-10px);
+}
+
+.computer-science h3,
+.computer-science p,
+.computer-science .dept-link {
+    color: white !important;
+}
+
+.electrical-engineering {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../assets/images/ee-dept.webp') no-repeat center center/cover !important;
+    color: white !important;
+}
+
+.electrical-engineering:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../assets/images/ee-dept.webp') no-repeat center center/cover !important;
+    transform: translateY(-10px);
+}
+
+.electrical-engineering h3,
+.electrical-engineering p,
+.electrical-engineering .dept-link {
+    color: white !important;
+}
+
+.electronics {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../assets/images/electronics-dept.jpg') no-repeat center center/cover !important;
+    color: white !important;
+}
+
+.electronics:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../assets/images/electronics-dept.jpg') no-repeat center center/cover !important;
+    transform: translateY(-10px);
+}
+
+.electronics h3,
+.electronics p,
+.electronics .dept-link {
+    color: white !important;
+}
+
+.mechanical-engineering {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../assets/images/mech-dept.jpg') no-repeat center center/cover !important;
+    color: white !important;
+}
+
+.mechanical-engineering:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../assets/images/mech-dept.jpg') no-repeat center center/cover !important;
+    transform: translateY(-10px);
+}
+
+.mechanical-engineering h3,
+.mechanical-engineering p,
+.mechanical-engineering .dept-link {
+    color: white !important;
+}
+
+.civil-engineering {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../assets/images/civil-dept.jpg') no-repeat center center/cover !important;
+    color: white !important;
+}
+
+.civil-engineering:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../assets/images/civil-dept.jpg') no-repeat center center/cover !important;
+    transform: translateY(-10px);
+}
+
+.civil-engineering h3,
+.civil-engineering p,
+.civil-engineering .dept-link {
+    color: white !important;
+}

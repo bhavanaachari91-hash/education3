@@ -28,7 +28,7 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className="footer-bottom">
-                    <p>&copy; 2026 edu.com. All rights reserved.</p>
+                    <p>&copy; 2026 edu.org. All rights reserved.</p>
                     <p>Privacy Policy | Terms of Service</p>
                 </div>
             </div>

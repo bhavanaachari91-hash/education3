@@ -5,14 +5,26 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>edu.com | Empowering Tomorrow's Leaders</title>
+    <title>edu.com | Shaping Tomorrow's Global Leaders</title>
     <meta name="description"
-        content="edu.com offers world-class international and domestic courses with 100+ expert faculty across specialized engineering departments." />
+        content="Experience academic excellence at edu.com. Offering world-class international and domestic programs with 100+ expert faculty across specialized engineering departments." />
+    <meta name="keywords"
+        content="higher education, global leaders, engineering excellence, international courses, domestic programs, academic success, edu.com, elite faculty" />
 </head>
 
 <body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
+    <link href="https://cdn.jsdelivr.net/npm/@n8n/chat/dist/style.css" rel="stylesheet" />
+    <script type="module">
+        import { createChat } from 'https://cdn.jsdelivr.net/npm/@n8n/chat/dist/chat.bundle.es.js';
+
+        window.addEventListener('DOMContentLoaded', () => {
+            createChat({
+                webhookUrl: 'http://localhost:5678/webhook/82017e10-4070-466e-b135-cb429a41a73b/chat'
+            });
+        });
+    </script>
 </body>
 
 </html>

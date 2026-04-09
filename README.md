@@ -1,4 +1,4 @@
-# edu.com Website
+# edu.org Website
 
 A premium educational institution website built with **React** and **Node.js**.
 

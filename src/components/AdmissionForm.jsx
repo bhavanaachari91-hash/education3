@@ -49,7 +49,7 @@ const AdmissionForm = () => {
                             <span>📞</span> +1 234 567 890
                         </div>
                         <div className="detail-item">
-                            <span>✉️</span> admissions@edu.com
+                            <span>✉️</span> admissions@edu.org
                         </div>
                     </div>
                 </div>

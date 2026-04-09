@@ -20,7 +20,7 @@ const Departments = () => {
                 </div>
                 <div className="dept-grid">
                     {departments.map((dept, index) => (
-                        <div key={index} className="dept-card glass">
+                        <div key={index} className={`dept-card glass ${dept.name.toLowerCase().replace(/\s+/g, '-')}`}>
                             <div className="dept-icon">{dept.icon}</div>
                             <h3>{dept.name}</h3>
                             <p>{dept.desc}</p>
